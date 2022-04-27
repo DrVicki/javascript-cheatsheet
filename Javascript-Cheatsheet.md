@@ -1,6 +1,12 @@
 # JavaScript Bag-of-Tricks
 
+![image](https://user-images.githubusercontent.com/47826697/165592871-e2366664-6881-41b1-89c1-38b6fff0edd7.png)
+
+
+
 ## If - Else
+![image](https://user-images.githubusercontent.com/47826697/165594560-f4663241-fdc8-4c7d-b32a-3fc36ba870b5.png)
+
 
 ```
 if ((age >= 14) && (age < 19)) {        // logical condition
@@ -11,6 +17,9 @@ status = "Not eligible.";           // executed if condition is false
 ```
 
 Switch Statement
+
+![image](https://user-images.githubusercontent.com/47826697/165594837-72caade1-c188-4624-a1e0-90b5dbd148c0.png)
+
 ```
 switch (new Date().getDay()) {      // input is current day
 case 6:                         // if (day == 6)
@@ -48,6 +57,9 @@ setTimeout(function () {
 
 Functions
 
+![image](https://user-images.githubusercontent.com/47826697/165595033-96f17fdc-dfdd-4eca-83fc-035f2bf66969.png)
+
+
 ```
 function addNumbers(a, b) {
 return a + b; ;
@@ -56,6 +68,8 @@ x = addNumbers(1, 2);
 ```
 
 Edit DOM element
+![image](https://user-images.githubusercontent.com/47826697/165595146-329cab61-1610-4a07-97d8-f79d2ba8eadf.png)
+
 
 ```
 document.getElementById("elementID").innerHTML = "Hello World!";
@@ -73,6 +87,9 @@ prompt("Your age?","0");    // input dialog. Second argument is the initial valu
 
 Comments
 
+![image](https://user-images.githubusercontent.com/47826697/165595266-c7432f93-0712-4d19-b113-e47b65faef8b.png)
+
+
 ```
 /* Multi line
 comment */
@@ -80,6 +97,9 @@ comment */
 ```
 
 ## Data Types
+
+![image](https://user-images.githubusercontent.com/47826697/165595505-e63c2f77-184a-4e15-8e82-ed7227c6f543.png)
+
 
 ```
 var age = 18;                           // number 
@@ -92,6 +112,9 @@ var a = null;                           // value null
 ```
 
 Objects
+
+![image](https://user-images.githubusercontent.com/47826697/165595619-14421924-e705-4f77-810a-006dfe4b72a5.png)
+
 
 ```
 var student = {                 // object name
@@ -110,6 +133,9 @@ name = student.fullName();  // call object function
 
 
 ## Numbers and Math
+
+![image](https://user-images.githubusercontent.com/47826697/165596277-1d132a3f-ba92-4447-a15a-01f3f20320fe.png)
+
 
 ```
 var pi = 3.141;
@@ -150,6 +176,9 @@ Math.floor(Math.random() * 5) + 1;  // random integer, from 1 to 5
 
 ## Global Functions()
 
+![image](https://user-images.githubusercontent.com/47826697/165596899-7736e828-b411-4353-8c8a-cf5ef3c074c1.png)
+
+
 ```
 eval();                     // executes a string as if it was script code
 String(23);                 // return string from number
@@ -166,6 +195,9 @@ parseInt();                 // parses a string and returns an integer
 ```
 
 ## Loops
+
+![image](https://user-images.githubusercontent.com/47826697/165597213-4c82d947-5541-4e6d-a16d-c9c70d342aab.png)
+
 
 For Loop
 
@@ -223,6 +255,9 @@ document.write(i + ", ");       // skips 5
 
 
 ## Strings
+
+![image](https://user-images.githubusercontent.com/47826697/165597538-67dd7b9f-abad-4f5d-bfb9-2759f72d534b.png)
+
 
 ```
 var abc = "abcdefghijklmnopqrstuvwxyz";
